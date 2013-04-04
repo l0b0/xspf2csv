@@ -8,7 +8,7 @@ It's really fast; around 25 milliseconds to process over 1200 tracks.
 Use
 ---
 
-    xsltproc xspf2csv.xsl /path/to/your/playlist.xml > playlist.csv
+    xsltproc xspf2csv.xsl /path/to/your/playlist.xspf > playlist.csv
 
 Tests
 -----
