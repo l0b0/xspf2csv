@@ -3,7 +3,7 @@ xspf2csv
 
 Convert [XML Shareable Playlist Format](http://xspf.org/) (XSPF) to comma-separated values (CSV) for import with services like [Ivy](http://ivyishere.org/).
 
-It's really fast; around 25 milliseconds to process over 1200 tracks, and it should be able to handle any special characters. See `example.xml` and the resulting `example.csv` for details.
+It's really fast; around 25 milliseconds to process over 1200 tracks, and it should be able to handle any special characters. See `example.xspf` and the resulting `example.csv` for details.
 
 Use
 ---

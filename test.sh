@@ -30,14 +30,14 @@ test_exit_code() {
     assertEquals \
         "Example" \
         0 \
-        "$(xsltproc "${directory}/xspf2csv.xsl" "${directory}/example.xml" > /dev/null; printf $?)"
+        "$(xsltproc "${directory}/xspf2csv.xsl" "${directory}/example.xspf" > /dev/null; printf $?)"
 }
 
 test_example() {
     assertEquals \
         "Example" \
         "$(cat "${directory}/example.csv"; printf x)" \
-        "$(xsltproc "${directory}/xspf2csv.xsl" "${directory}/example.xml"; printf x)"
+        "$(xsltproc "${directory}/xspf2csv.xsl" "${directory}/example.xspf"; printf x)"
 }
 
 # load and run shUnit2
